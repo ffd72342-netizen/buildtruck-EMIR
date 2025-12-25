@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Solutions Agency - Pricing</title>
+  <meta name="description" content="Transparent pricing plans for our digital services. Choose the right package for your business.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <div class="logo">Digital Solutions</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="cases.html">Cases</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Transparent Pricing for Exceptional Value</h1>
+        <p>Choose the perfect plan for your business needs. All plans include our core services with flexible options to scale as you grow. No hidden fees, no surprises.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="card-grid">
+          <div class="card fade-in">
+            <img src="https://picsum.photos/400/300?random=23" alt="Starter Plan">
+            <h3>Starter</h3>
+            <p class="price">$999</p>
+            <p>Perfect for small businesses and startups looking to establish a professional online presence. Get a solid foundation to build upon.</p>
+            <ul>
+              <li>5-page responsive website</li>
+              <li>Mobile-optimized design</li>
+              <li>Basic SEO setup</li>
+              <li>Contact form integration</li>
+              <li>1 month of support</li>
+              <li>Basic analytics setup</li>
+              <li>Training session included</li>
+            </ul>
+            <p><strong>Ideal for:</strong> New businesses, freelancers, small local companies</p>
+            <a href="contact.html" class="btn">Get Started</a>
+          </div>
+          <div class="card fade-in" style="border: 2px solid var(--accent-color); transform: scale(1.05);">
+            <img src="https://picsum.photos/400/300?random=24" alt="Professional Plan">
+            <h3>Professional</h3>
+            <p class="price">$2499</p>
+            <p>Comprehensive solution for growing businesses. Includes advanced features, marketing integration, and extended support for maximum impact.</p>
+            <ul>
+              <li>10-page custom website</li>
+              <li>E-commerce ready platform</li>
+              <li>Advanced SEO optimization</li>
+              <li>Social media integration</li>
+              <li>Content management system</li>
+              <li>3 months of support</li>
+              <li>Performance monitoring</li>
+              <li>Monthly analytics reports</li>
+            </ul>
+            <p><strong>Ideal for:</strong> Growing SMEs, established brands, service providers</p>
+            <a href="contact.html" class="btn">Choose Plan</a>
+          </div>
+          <div class="card fade-in">
+            <img src="https://picsum.photos/400/300?random=25" alt="Enterprise Plan">
+            <h3>Enterprise</h3>
+            <p class="price">$4999+</p>
+            <p>Full-scale digital transformation for large organizations. Custom solutions, advanced integrations, and dedicated support for enterprise needs.</p>
+            <ul>
+              <li>Unlimited pages & features</li>
+              <li>Custom web application</li>
+              <li>Full marketing automation</li>
+              <li>Advanced analytics & reporting</li>
+              <li>API integrations</li>
+              <li>6 months priority support</li>
+              <li>Dedicated account manager</li>
+              <li>Custom training program</li>
+            </ul>
+            <p><strong>Ideal for:</strong> Large corporations, complex organizations, high-traffic sites</p>
+            <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background: var(--secondary-bg);">
+      <div class="container">
+        <h2>Project Cost Calculator</h2>
+        <p class="text-center mb-2">Get a personalized estimate for your project. Adjust the sliders to see how different features affect the cost.</p>
+        
+        <div class="calculator" style="max-width: 600px; margin: 0 auto; background: var(--card-bg); padding: 2rem; border-radius: 20px; border: 1px solid var(--border-color); backdrop-filter: blur(10px);">
+          <div class="calc-section">
+            <label>Project Type:</label>
+            <select id="calc-type">
+              <option value="web-design">Web Design</option>
+              <option value="web-development">Web Development</option>
+              <option value="ecommerce">E-commerce</option>
+              <option value="marketing">Digital Marketing</option>
+            </select>
+          </div>
+          
+          <div class="calc-section">
+            <label>Pages/Features: <span id="pages-value">5</span></label>
+            <input type="range" id="calc-pages" min="1" max="20" value="5">
+          </div>
+          
+          <div class="calc-section">
+            <label>Complexity: <span id="complexity-value">Medium</span></label>
+            <input type="range" id="calc-complexity" min="1" max="3" value="2">
+          </div>
+          
+          <div class="calc-section">
+            <label>Timeline (weeks): <span id="timeline-value">4</span></label>
+            <input type="range" id="calc-timeline" min="2" max="12" value="4">
+          </div>
+          
+          <div class="calc-result">
+            <h3>Estimated Cost: <span id="total-cost">$2,500</span></h3>
+            <p id="cost-breakdown">Base: $2,000 | Complexity: $300 | Timeline: $200</p>
+          </div>
+          
+          <a href="contact.html" class="btn" style="width: 100%; margin-top: 1rem;">Get Detailed Quote</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <p class="text-center mb-2">Get answers to common questions about our pricing and services</p>
+        <div class="card-grid">
+          <div class="card fade-in">
+            <h3>Do you offer payment plans?</h3>
+            <p>Yes, we offer flexible payment options for all our plans. You can pay in full or opt for monthly installments to make it easier on your budget.</p>
+          </div>
+          <div class="card fade-in">
+            <h3>What's included in the support period?</h3>
+            <p>During the support period, we provide technical assistance, bug fixes, minor updates, and guidance on using your new website effectively.</p>
+          </div>
+          <div class="card fade-in">
+            <h3>Can I upgrade my plan later?</h3>
+            <p>Absolutely! You can upgrade your plan at any time. We'll assess your current setup and provide a seamless transition with prorated billing.</p>
+          </div>
+          <div class="card fade-in">
+            <h3>Do you provide refunds?</h3>
+            <p>We stand behind our work. If you're not satisfied within the first 30 days, we'll work with you to make it right or provide a full refund.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Digital Solutions Agency. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Chatbot -->
+  <div id="chatbot">
+    <div id="chat-header">💬 Digital Assistant</div>
+    <div id="chat-messages"></div>
+    <div id="chat-input">
+      <input type="text" placeholder="Type your message...">
+    </div>
+  </div>
+  <button id="chat-toggle">💬</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

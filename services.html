@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Solutions Agency - Services</title>
+  <meta name="description" content="Comprehensive digital services including web design, development, and marketing.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav container">
+      <div class="logo">Digital Solutions</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="how-it-works.html">How It Works</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="cases.html">Cases</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Our Comprehensive Services</h1>
+        <p>From concept to launch, we provide end-to-end digital solutions that drive real business results. Discover how we can transform your digital presence.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>Our Comprehensive Services</h2>
+        <p class="text-center mb-2">Comprehensive digital solutions tailored to elevate your brand and accelerate your growth. Discover how we can transform your digital presence.</p>
+        
+        <!-- Service Filter -->
+        <div class="filter-buttons" style="text-align: center; margin-bottom: 3rem;">
+          <button class="filter-btn active" data-filter="all">All Services</button>
+          <button class="filter-btn" data-filter="design">Design</button>
+          <button class="filter-btn" data-filter="development">Development</button>
+          <button class="filter-btn" data-filter="marketing">Marketing</button>
+          <button class="filter-btn" data-filter="support">Support</button>
+        </div>
+
+        <div class="card-grid" id="services-grid">
+          <div class="card fade-in service-item" data-category="design">
+            <img src="https://picsum.photos/400/300?random=13" alt="Web Design Service">
+            <h3>Web Design</h3>
+            <p>Stunning, user-centric designs that captivate and convert. Our design process combines aesthetics with functionality to create websites that not only look great but perform exceptionally.</p>
+            <ul>
+              <li>Custom UI/UX Design</li>
+              <li>Mobile-First Responsive Design</li>
+              <li>Brand Identity Integration</li>
+              <li>Conversion Rate Optimization</li>
+              <li>Accessibility Compliance</li>
+              <li>Cross-Browser Compatibility</li>
+            </ul>
+            <p><strong>Technologies:</strong> Figma, Adobe XD, Sketch, HTML5, CSS3, JavaScript</p>
+          </div>
+          <div class="card fade-in service-item" data-category="development">
+            <img src="https://picsum.photos/400/300?random=14" alt="Web Development Service">
+            <h3>Web Development</h3>
+            <p>Robust, scalable web applications built with modern technologies. Whether you need a simple website or a complex web platform, we deliver solutions that grow with your business.</p>
+            <ul>
+              <li>Frontend Development (React, Vue, Angular)</li>
+              <li>Backend Development (Node.js, Python, PHP)</li>
+              <li>Database Design & Integration</li>
+              <li>API Development & Integration</li>
+              <li>Performance Optimization</li>
+              <li>Security Implementation</li>
+            </ul>
+            <p><strong>Technologies:</strong> React, Node.js, Express, MongoDB, PostgreSQL, AWS</p>
+          </div>
+          <div class="card fade-in service-item" data-category="development">
+            <img src="https://picsum.photos/400/300?random=15" alt="E-commerce Solutions">
+            <h3>E-commerce Solutions</h3>
+            <p>Complete online stores that drive sales and enhance customer experience. From product catalogs to secure checkout, we create e-commerce platforms that convert browsers into buyers.</p>
+            <ul>
+              <li>Custom E-commerce Platforms</li>
+              <li>Payment Gateway Integration</li>
+              <li>Inventory Management Systems</li>
+              <li>Order Processing Automation</li>
+              <li>Customer Portal Development</li>
+              <li>Mobile Commerce Optimization</li>
+            </ul>
+            <p><strong>Technologies:</strong> Shopify, WooCommerce, Magento, Stripe, PayPal</p>
+          </div>
+          <div class="card fade-in service-item" data-category="marketing">
+            <img src="https://picsum.photos/400/300?random=16" alt="SEO Optimization">
+            <h3>SEO Optimization</h3>
+            <p>Dominate search engine rankings and attract qualified traffic. Our SEO strategies combine technical expertise with content optimization to improve your online visibility.</p>
+            <ul>
+              <li>Keyword Research & Analysis</li>
+              <li>On-Page SEO Optimization</li>
+              <li>Technical SEO Audits</li>
+              <li>Link Building Strategies</li>
+              <li>Local SEO Optimization</li>
+              <li>SEO Performance Monitoring</li>
+            </ul>
+            <p><strong>Tools:</strong> Google Analytics, SEMrush, Ahrefs, Moz, Screaming Frog</p>
+          </div>
+          <div class="card fade-in service-item" data-category="marketing">
+            <img src="https://picsum.photos/400/300?random=17" alt="Digital Marketing">
+            <h3>Digital Marketing</h3>
+            <p>Comprehensive marketing campaigns that drive growth and engagement. We create data-driven strategies that connect your brand with your target audience across all digital channels.</p>
+            <ul>
+              <li>Pay-Per-Click (PPC) Advertising</li>
+              <li>Social Media Marketing</li>
+              <li>Content Marketing Strategy</li>
+              <li>Email Marketing Campaigns</li>
+              <li>Influencer Marketing</li>
+              <li>Marketing Automation</li>
+            </ul>
+            <p><strong>Platforms:</strong> Google Ads, Facebook Ads, Instagram, LinkedIn, HubSpot</p>
+          </div>
+          <div class="card fade-in service-item" data-category="support">
+            <img src="https://picsum.photos/400/300?random=18" alt="Maintenance & Support">
+            <h3>Maintenance & Support</h3>
+            <p>Ongoing support to keep your digital assets secure, updated, and performing optimally. We provide comprehensive maintenance services to ensure your online presence remains effective.</p>
+            <ul>
+              <li>Regular Security Updates</li>
+              <li>Performance Monitoring</li>
+              <li>Content Updates & Management</li>
+              <li>Technical Support</li>
+              <li>Backup & Recovery</li>
+              <li>Analytics & Reporting</li>
+            </ul>
+            <p><strong>Services:</strong> 24/7 Monitoring, Monthly Reports, Emergency Support</p>
+          </div>
+        </div>
+        <div class="text-center mt-2">
+          <p class="mb-2">Ready to elevate your digital presence? Let's discuss your project requirements.</p>
+          <a href="contact.html" class="btn">Discuss Your Project</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="background: var(--secondary-bg);">
+      <div class="container">
+        <h2>Our Process</h2>
+        <p class="text-center mb-2">A proven methodology that ensures successful project delivery and client satisfaction</p>
+        <div class="card-grid">
+          <div class="card fade-in">
+            <h3>Discovery & Strategy</h3>
+            <p>We begin by understanding your business goals, target audience, and current challenges. Through detailed consultation, we develop a comprehensive strategy tailored to your needs.</p>
+          </div>
+          <div class="card fade-in">
+            <h3>Design & Development</h3>
+            <p>Our creative team brings your vision to life with stunning designs and robust development. We maintain close communication throughout to ensure alignment with your expectations.</p>
+          </div>
+          <div class="card fade-in">
+            <h3>Testing & Launch</h3>
+            <p>Rigorous testing ensures quality and performance. We conduct thorough reviews before launch and provide comprehensive documentation for smooth handover.</p>
+          </div>
+          <div class="card fade-in">
+            <h3>Support & Growth</h3>
+            <p>Post-launch support and optimization continue to drive results. We monitor performance, provide updates, and help you scale your digital presence.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Digital Solutions Agency. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Chatbot -->
+  <div id="chatbot">
+    <div id="chat-header">💬 Digital Assistant</div>
+    <div id="chat-messages"></div>
+    <div id="chat-input">
+      <input type="text" placeholder="Type your message...">
+    </div>
+  </div>
+  <button id="chat-toggle">💬</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
